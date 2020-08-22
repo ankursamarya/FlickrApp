@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:scaleType="centerCrop"
+    android:transitionName="simple_activity_transition"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="200dp"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:lines="2"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:background="#662f2f2f"
+        android:layout_gravity="bottom"
+        android:ellipsize="end"/>
+
+</FrameLayout>
